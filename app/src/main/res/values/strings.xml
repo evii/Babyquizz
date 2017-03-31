@@ -1,0 +1,33 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Baby quizz</string>
+    <string name="name">Put your name here</string>
+    <string name="title">Are you a Newborn Baby Expert?</string>
+    <string name="question1">1.	How many hours a day does the average newborn sleep?</string>
+    <string name="question1a">10-12</string>
+    <string name="question1b">14-16</string>
+    <string name="question1c">18-20</string>
+    <string name="question2">2.	True or false: It is normal for a newborn to have irregular breathing patterns.</string>
+    <string name="question2a">True</string>
+    <string name="question2b">False</string>
+    <string name="question3">3. Which of the following are NOT a reported benefit of breastfeeding?</string>
+    <string name="question3a">Promotes mother–infant bonding.</string>
+    <string name="question3b">Decreased intelligence quotient (IQ).</string>
+    <string name="question3c">Decreased risk of asthma and eczema.</string>
+    <string name="question3d">Decreased incidence of infant obesity.</string>
+    <string name="question3e">Increased likelihood of SIDS.</string>
+    <string name="question4">4.	True or false: Letting your baby cry is good because it helps their lungs develop.</string>
+    <string name="question5">5. By the end of the first month, your newborn\'s head will have increased in size by about (put number in inches):</string>
+    <string name="question5a">Your guess in inches</string>
+    <string name="question6">6.	Which reflexes are babies born with:</string>
+    <string name="question6a">Moro reflex (startling reflex)</string>
+    <string name="question6b">Rooting reflex</string>
+    <string name="question6c">Blushing reflex</string>
+    <string name="question6d">Walking (or stepping) reflex</string>
+    <string name="result">Results:</string>
+    <string name="submit">Submit</string>
+    <string name="try_again">Try again</string>
+    <string name="results_summary_name">Results:\n<xliff:g id="nameOfUser" example="Amy">%s</xliff:g>, you\'ve got <xliff:g id="finalResult" example="5">%d</xliff:g> out of 6 correct\n</string>
+    <string name="correct_answers">Correct answers:\n1B\n2A\n3B+E\n4B\n5 1 inch\n6A+B+D</string>
+    <string name="blank"></string>
+    <string name="zero">0</string>
+</resources>
