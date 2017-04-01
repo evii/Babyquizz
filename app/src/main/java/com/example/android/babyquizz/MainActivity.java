@@ -92,7 +92,6 @@ public class MainActivity extends AppCompatActivity {
             finalResult = finalResult + 1;
         }
 
-
         //Evaluation of Question 6 - correct 6a b d
         CheckBox answerToQuestion6a = (CheckBox) findViewById(R.id.checkbox_6a);
         boolean answer6a = answerToQuestion6a.isChecked();
