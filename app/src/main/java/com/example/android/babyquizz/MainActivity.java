@@ -183,9 +183,7 @@ public class MainActivity extends AppCompatActivity {
         correctAnswersmessage.setText(getString(R.string.blank));
 
         // Reseting Name
-
         userName.setText(getString(R.string.blank));
-
     }
 
     // Dismissing keyboard when click outside of EditText in android
