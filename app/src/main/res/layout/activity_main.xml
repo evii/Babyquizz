@@ -48,7 +48,8 @@
                 android:layout_marginBottom="@dimen/text_margin"
                 android:hint="@string/name"
                 android:imeOptions="flagNoExtractUi"
-                android:inputType="textCapWords" />
+                android:inputType="textCapWords"
+                android:focusable="true"/>
 
             <TextView
                 style="@style/text_question"

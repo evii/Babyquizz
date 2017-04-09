@@ -14,6 +14,7 @@ import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
+import android.widget.ScrollView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -42,6 +43,7 @@ public class MainActivity extends AppCompatActivity {
     TextView userName;
     TextView correctAnswersmessage;
     TextView resultsMessage;
+    ScrollView scrollView;
 
     // Dismissing keyboard when click outside of EditText in android
     public static void hideKeyboard(Activity activity) {
@@ -75,6 +77,7 @@ public class MainActivity extends AppCompatActivity {
         userName = (TextView) findViewById(R.id.User_name_EditText);
         correctAnswersmessage = (TextView) findViewById(R.id.correctAnswers_TextView);
         resultsMessage = (TextView) findViewById(R.id.result_TextView);
+        scrollView = (ScrollView) findViewById(R.id.activity_main);
     }
 
     // Method for calculating result
@@ -184,7 +187,12 @@ public class MainActivity extends AppCompatActivity {
 
         // Reseting Name
         userName.setText(getString(R.string.blank));
+
+        // odrolování nahoru
+        userName.requestFocus();
+
     }
+
 
     // Dismissing keyboard when click outside of EditText in android
     @Override
@@ -205,4 +213,7 @@ public class MainActivity extends AppCompatActivity {
         }
         return super.dispatchTouchEvent(ev);
     }
+
+
 }
+
